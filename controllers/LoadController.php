@@ -13,6 +13,12 @@ use yii\filters\VerbFilter;
 
 class LoadController extends Controller
 {
+	/**
+     * Layout beállítása.
+     */
+	public $layout = 'load';
+
+
     /**
      * @inheritdoc
      */
@@ -62,6 +68,6 @@ class LoadController extends Controller
      */
     public function actionIndex()
     {
-        return $this->renderPartial('index');
+        return $this->render('index');
     }
 }
