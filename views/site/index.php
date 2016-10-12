@@ -11,7 +11,7 @@ $this->title = 'Szabadság Nyilvántartó';
 
         <p class="lead">You have successfully created your Yii-powered application.</p>
 
-        <p><a class="btn btn-lg btn-success" href="<?php ECHO Yii::$app->homeUrl . '?r=load/index'; ?>">START</a></p>
+        <p><a class="btn btn-lg btn-success" href="<?php ECHO Yii::$app->homeUrl . '?r=load/index'; ?>" data-rel="lightcase">START</a></p>
     </div>
 
     <div class="body-content">
